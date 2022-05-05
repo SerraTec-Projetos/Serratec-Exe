@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+.container{
+background-color: rgb(197, 206, 255);
+max-width: 1024px;
+height: 150vh;
+margin:0 auto;
+border: 4px solid #910707;
+position: relative;
+
+}
+.header{
+    width: auto;  
+    height: 50px;
+    background-color: rgb(82, 108, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.nav{
+    width: 100%;  
+    height: 50px;
+    background-color: rgb(122, 157, 253);
+    border-radius: 20px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    z-index: 2;
+}
+.aside{
+    width:30%;  
+    height: 60%;
+    background-color: rgb(0, 41, 46);
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.main{
+    width:65%;  
+    height: 60%;
+    background-color: rgb(134, 2, 173);
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 35%;
+    top: -61%;
+}
+.footer{
+    width:100%;  
+    height:25%;
+    background-color: rgb(153, 153, 238);
+    border-radius: 20px;
+    position: relative;
+    top:-60%;
+    z-index: 1px ;
+    margin-top: 10px;
+}
+.fixed{
+    width:20%;  
+    height:2%;
+    background-color: black;
+    border-radius: 20px;
+    position: fixed;
+    top:95%;
+    left: 40%;
+    z-index: 1px ;
+    margin-top: 10px;
+}
